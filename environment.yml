@@ -43,3 +43,4 @@ dependencies:
     - tqdm
     - vedo
     - vispy
+    - ipyvtklink
