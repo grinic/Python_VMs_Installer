@@ -226,7 +226,7 @@ dependencies:
     - regex==2021.11.10
     - requests==2.26.0
     - rope==0.21.0
-    - rtree==0.9.7
+    - rtree
     - scikit-image==0.18.3
     - send2trash==1.8.0
     - sniffio==1.2.0
