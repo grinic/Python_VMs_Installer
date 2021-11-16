@@ -1,6 +1,6 @@
 # Python_VMs_Installer
 
-1. open environment.yml with any text editor and change the name of the environment to whatever you like (currently "nicola")
+1. open environment.yml with any text editor and change the name of the environment to whatever you like (currently "my-env")
 
 2. install environment: 
   * open command prompt in the location of the environment.yml
