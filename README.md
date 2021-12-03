@@ -12,4 +12,4 @@
   * type "pip install <PYOPENCL_FILE_NAME>" and press enter
 
 4. install pyclesperanto for GPU-accelerated image processing:
-  * in the same command prompt, type "pip install pyclesperant_prototype"
+  * in the same command prompt, type "pip install pyclesperanto_prototype"
