@@ -26,7 +26,7 @@ dependencies:
   - seaborn
   - setuptools
   - statsmodels
-  - tensorflow-gpu
+  - tensorflow-gpu=2.5
   - tk
   - scipy
   - pip:
