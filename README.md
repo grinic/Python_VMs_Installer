@@ -14,7 +14,13 @@
 4. install pyclesperanto for GPU-accelerated image processing:
   * in the same command prompt, type "pip install pyclesperanto_prototype"
 
+*Note:* every time you login a VM and want to start working with your personal environment, make sure you activate it by typing
+```
+activate test-env
+```
+in a terminal.
+
 # Installation of cellpose environment
 
-Follow instructions above, using cellpose_env.yml file.
-The environment created will be called "cellpose".
+Follow the official instructions:
+https://github.com/MouseLand/cellpose
