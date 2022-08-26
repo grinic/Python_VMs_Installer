@@ -8,11 +8,11 @@
 
 3. install opencl:
   * open a command prompt in the location of the pyopencl file (or use the prompt from previous step)
-  * activate the environment just created: type "activate <ENVIRONMENT_NAME>"
-  * type "pip install <PYOPENCL_FILE_NAME>" and press enter
+  * activate the environment just created: type ```activate <ENVIRONMENT_NAME>```
+  * type ```pip install <PYOPENCL_FILE_NAME>``` and press enter
 
 4. install pyclesperanto for GPU-accelerated image processing:
-  * in the same command prompt, type "pip install pyclesperanto_prototype"
+  * in the same command prompt, type ```pip install pyclesperanto_prototype```
 
 *Note:* every time you login a VM and want to start working with your personal environment, make sure you activate it by typing
 ```
