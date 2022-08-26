@@ -3,7 +3,7 @@
 1. open default_env.yml with any text editor and change the name of the environment to whatever you like (currently "test-env")
 
 2. install environment: 
-  * open command prompt in the location of the environment.yml
+  * open command prompt in the location of the default_env.yml
   * type ```conda env create -f default_env.yml``` and press enter
 
 3. install opencl:
