@@ -8,8 +8,8 @@
 
 3. install opencl:
   * open a command prompt in the location of the pyopencl file (or use the prompt from previous step)
-  * activate the environment just created: type ```activate <ENVIRONMENT_NAME>```
-  * type ```pip install <PYOPENCL_FILE_NAME>``` and press enter
+  * activate the environment just created: type ```activate <ENVIRONMENT_NAME>``` (replace ```<ENVIRONMENT_NAME>``` with the name you chose)
+  * type ```pip install <PYOPENCL_FILE_NAME>``` and press enter (replace ```<PYOPENCL_FILE_NAME>``` with the actual file name)
 
 4. install pyclesperanto for GPU-accelerated image processing:
   * in the same command prompt, type ```pip install pyclesperanto_prototype```
