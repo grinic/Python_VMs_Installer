@@ -4,7 +4,7 @@
 
 2. install environment: 
   * open command prompt in the location of the environment.yml
-  * type "conda env create -f default_env.yml" and press enter
+  * type ```conda env create -f default_env.yml``` and press enter
 
 3. install opencl:
   * open a command prompt in the location of the pyopencl file (or use the prompt from previous step)
