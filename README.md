@@ -6,13 +6,13 @@
   * open command prompt in the location of the default_env.yml
   * type ```conda env create -f default_env.yml``` and press enter
 
-3. install opencl:
-  * open a command prompt in the location of the pyopencl file (or use the prompt from previous step)
-  * activate the environment just created: type ```activate <ENVIRONMENT_NAME>``` (replace ```<ENVIRONMENT_NAME>``` with the name you chose)
-  * type ```pip install <PYOPENCL_FILE_NAME>``` and press enter (replace ```<PYOPENCL_FILE_NAME>``` with the actual file name)
-
-4. install pyclesperanto for GPU-accelerated image processing:
-  * in the same command prompt, type ```pip install pyclesperanto_prototype```
+*Note:* In case of DLL error message when importing pyclesperanto via:
+```
+>>> import pyclesperanto_prototype as cle
+```
+please make sure recent drivers are installed for the GPU/OpenCL device.
+Refer to https://github.com/clEsperanto/pyclesperanto_prototype for more information.
+Do not install drivers yourself, instead contact IT or MIF.
 
 *Note:* every time you login a VM and want to start working with your personal environment, make sure you activate it by typing
 ```

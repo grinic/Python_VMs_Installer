@@ -3,23 +3,20 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - napari
-  - spyder
+  - python=3.9
+  - pip
+  - pyqt
   - notebook
+  - matplotlib
+  - numba
+  - numpy
+  - pandas
   - hdf5
   - joblib
   - leidenalg
   - libtiff
   - llvmlite
-  - matplotlib
-  - numba
-  - numpy
   - openssl
-  - pandas
-  - pip
-  - pyqt
-  - python=3.8.12=h6244533_0
-  - qt
   - scikit-image
   - scikit-learn
   - scikit-learn-intelex
@@ -27,20 +24,17 @@ dependencies:
   - setuptools
   - statsmodels
   - tensorflow-gpu=2.5
-  - tk
   - scipy
   - pip:
     - anndata
     - scanpy
-    - magicgui
     - morgana
-    - napari
+    - napari[all]
     - networkx
     - pyopengl
-    - pyqt5
     - spyder
-    - tifffile
     - tqdm
     - vedo
     - vispy
     - ipyvtklink
+    - pyclesperanto-prototype
